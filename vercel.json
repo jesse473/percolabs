@@ -1,11 +1,11 @@
 {
   "buildCommand": "pnpm build:client",
   "outputDirectory": "client/dist",
-  "installCommand": "pnpm install",
+  "installCommand": "pnpm install --frozen-lockfile",
   "framework": null,
   "devCommand": null,
+  "nodeVersion": "20",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
-
