@@ -1,0 +1,10 @@
+[build]
+  command = "pnpm install && pnpm build"
+  publish = "dist"
+  environment = { NODE_VERSION = "20.19.0" }
+
+# Handle SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
