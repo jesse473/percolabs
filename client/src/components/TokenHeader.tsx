@@ -31,7 +31,7 @@ export const TokenHeader: React.FC = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
                     <div className="flex items-center gap-3 flex-wrap justify-center sm:justify-start">
-                        <span className="text-white font-bold text-sm">🪙 PERCO TOKEN:</span>
+                        <span className="text-white font-bold text-sm">🪙 CA:</span>
                         <code className="text-white/90 text-xs sm:text-sm font-mono bg-black/20 px-3 py-1 rounded-lg">
                             {tokenAddress}
                         </code>
